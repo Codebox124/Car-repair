@@ -1,0 +1,26 @@
+[
+    {
+        "img":"/images/martin.png",
+        "name":"Martin Jacob",
+        "country":"Nigeria",
+        "words":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum minus cumque dolorem placeat non quibusdam. Quae autem officia dolore animi."
+    },
+    {
+        "img":"/images/jane.png",
+        "name":"Jane Ogechukwu",
+        "country":"Nigeria",
+        "words":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum minus cumque dolorem placeat non quibusdam. Quae autem officia dolore animi."
+    },
+    {
+        "img":"/images/neo.png",
+        "name":"Neo Malk",
+        "country":"South Africa",
+        "words":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum minus cumque dolorem placeat non quibusdam. Quae autem officia dolore animi."
+    },
+    {
+        "img":"/images/daniel.png",
+        "name":"Daniel Shali",
+        "country":"Ghana",
+        "words":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum minus cumque dolorem placeat non quibusdam. Quae autem officia dolore animi."
+    }
+]
