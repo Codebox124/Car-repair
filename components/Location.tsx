@@ -20,8 +20,8 @@ export default function Location() {
             viewport={{
                 once:true
             }}
-            className="p-6 h-[80%]  flex flex-col items-center justify-between w-full md:w-1/2 ">
-                <h1 className="text-3xl md:text-5xl font-bold">Location and Hours</h1>
+            className="p-6 h-[80%] flex flex-col  justify-between w-full md:w-1/2 ">
+                <h1 className="text-3xl md:text-5xl font-bold ">Location and Hours</h1>
                 <div className="w-[100%]">
                     <p className="font-bold">Call us</p>
                     <p className="font-bold">BY APPOINTMENT ONLY</p>
