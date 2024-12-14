@@ -3,17 +3,17 @@ import React from "react";
 import { motion } from "framer-motion";
 const services = [
     {
-        title: "Vinyl Wrap",
+        title: "VINYL WRAP",
         description: "High-quality vinyl made to last.",
         img: "/services.jpg", 
     },
     {
-        title: "Window Tint",
+        title: "WINDOW TINT",
         description: "Protect from harmful UV rays.",
         img: "/services.jpg", 
     },
     {
-        title: "Paint Protection Film",
+        title: "PAINT PROTECTION FILM",
         description: "Protect your car's exterior.",
         img: "/services.jpg", 
     }/*,
@@ -31,8 +31,7 @@ export default function Services() {
             <h2 className="text-3xl font-bold text-center mb-8">Our Services</h2>
             <div className="grid services w-[90%] gap-6 px-6">
                 {services.map((service, index) => (
-                    <motion.div
-                        key={index}
+                   <a key={index} href={`/services/#${service.title}`}><motion.div
                         className="border cursor-pointer service bg-[hsla(0,_0%,_0%,_0.1)] rounded-[2px] p-6 text-center flex flex-col items-center"
                         initial={{
                             y:100,
@@ -62,9 +61,10 @@ export default function Services() {
                             Read More
                         </button>
                     </motion.div>
+                    </a>
                 ))}
             </div>
-            <motion.button 
+            <a href="/services"><motion.button 
              initial={{
                 y:100,
                 opacity:0
@@ -80,7 +80,7 @@ export default function Services() {
             viewport={{
                 once:true
             }}
-            className="mt-[50px] bg-red-600 text-white font-bold px-4 py-2 rounded">View Services</motion.button>
+            className="mt-[50px] bg-red-600 text-white font-bold px-4 py-2 rounded">View Services</motion.button></a>
         </section>
     );
 }

@@ -24,7 +24,7 @@ export default function Footer() {
             viewport={{
                 once:true
             }}
-            className="text-2xl font-bold">JLE Customs</motion.h3>
+            className="text-2xl font-bold text-center md:text-start">JLE Customs</motion.h3>
             <motion.p
               initial={{
                 x:-100,
@@ -42,6 +42,7 @@ export default function Footer() {
             viewport={{
                 once:true
             }}
+            className="text-center md:text-start"
             >9934 Jones Road, Houston, TX</motion.p>
           </div>
           <div className="flex space-x-4">

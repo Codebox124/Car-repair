@@ -1,0 +1,62 @@
+[
+    {
+        "title":"PAINT PROTECTION FILM",
+        "description":"Protect your car's exterior with paint protection film (PPF) for years to come. We'll place a clear bra around your vehicle to protect it from rock chips, scratches, and swirling. Call for various PPF packages.",
+        "price":"$500",
+        "image":"/paintprotecttionfilm.png"
+    },
+    {
+        "title":"VINYL WRAP",
+        "description":"Considering a new look? We got you covered. Vinyl wraps are a great way to personalize and protect your vehicle. With many colors and finishes to choose from, we can help you find the perfect high-quality vinyl wrap for your car.",
+        "price":"CALL FOR INFO",
+        "image":"/vinylwrap.png"
+    },
+    {
+        "title":"WINDOW TINT",
+        "description":"Protect your vehicle from harsh ultraviolet rays with a window tint installation. Our large selection of film not only keeps your interior cooler but offers the privacy and security you need to ride comfortably. ",
+        "price":"$150",
+        "image":"/windowtint.png"
+    },
+    {
+        "title":"CERAMIC COATING",
+        "description":"Protect your car's exterior with paint protection film (PPF) for years to come. We'll place a clear bra around your vehicle to protect it from rock chips, scratches, and swirling. Call for various PPF packages.",
+        "price":"$600",
+        "image":"/ceramiccoating.png"
+    },
+    {
+        "title":"WINDSHIELD PROTECTION",
+        "description":"Protect your windshield with a layered shock-absorbing film. Prevent rock chips and sandblasting with the added benefit of blocking out 99% of UV rays.",
+        "price":"$500",
+        "image":"/windshieldprotection.jpg"
+    },
+    {
+        "title":"PAINT CORRECTION",
+        "description":"Protect your car's exterior with paint protection film (PPF) for years to come. We'll place a clear bra around your vehicle to protect it from rock chips, scratches, and swirling. Call for various PPF packages.",
+        "price":"$500",
+        "image":"/paintcorrection.png"
+    },
+    {
+        "title":"POWDER COATING",
+        "description":"Restore your wheels and add a vibrant color that is sure to pop. Our powder-coating process is long-lasting, rust-resistant, and weatherproof. We guarantee we have the color you are looking for.",
+        "price":"$150 PER WHEEL",
+        "image":"/powercoating.png"
+    },
+    {
+        "title":"SUSPENSION",
+        "description":"Looking to add some height? Or are you looking to ride lower? Lower or raise your vehicle with us. Adjust the height, stiffness, or dampening of your vehicle's suspension. ",
+        "price":"$500",
+        "image":"/suspension.jpg"
+    },
+    {
+        "title":"PAINT",
+        "description":"Whether it is your entire car or the details, we paint it all. Leave your next paint job to us. We offer a wide array of paint colors. Call to book an appointment today.",
+        "price":"$2,500",
+        "image":"/paint.png"
+    },
+    {
+        "title":"WHEELS AND TIRES",
+        "description":"Looking for a new pair of shoes? Whether it is for styling or performance, we have it all. We carry name brands you know and trust.",
+        "price":"VARIES",
+        "image":"/wheels.png"
+    }
+]

@@ -1,8 +1,13 @@
+import ServiceBanner from '@/components/ServiceBanner'
+import ServicesLaidOut from '@/components/ServicesLaidOut'
 import React from 'react'
 
 function Service() {
   return (
-    <div>this is a service page</div>
+    <div className='mt-[88px]'>
+        <ServiceBanner />
+        <ServicesLaidOut />
+    </div>
   )
 }
 

@@ -55,3 +55,25 @@ body {
 .service:hover{
   scale:1.02;
 }
+
+.servicebanner{
+  background-image: url("https://static.wixstatic.com/media/c601b4_5660b52948884fa3bb5043c677baa869~mv2.png/v1/fill/w_1349,h_275,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/c601b4_5660b52948884fa3bb5043c677baa869~mv2.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.servicebanner::before{
+  content: " ";
+  background-color: hsla(0, 0%, 0%, 0.5);
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.servicebanner h1{
+  z-index: 1;
+}
