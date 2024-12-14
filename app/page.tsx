@@ -6,7 +6,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className=" items-center justify-items-center   pb-20 gap-16  font-[family-name:var(--font-montserrat)]">
+    <div className=" items-center justify-items-center   pb-20 gap-16  font-[family-name:var(--font-montserrat)] overflow-x-hidden">
 
       <Hero />
       <Services />
