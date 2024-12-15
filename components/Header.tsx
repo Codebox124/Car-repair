@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import { CiMenuFries } from "react-icons/ci";
 import { IoMdClose } from "react-icons/io";
 import { motion, AnimatePresence } from "framer-motion";
+import Image from "next/image";
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const border = "border-[1px] border-[red] border-[solid]"
@@ -11,8 +12,7 @@ export default function Header() {
       {/* Logo Section */}
      <a href="/">
      <div className="text-lg font-bold">
-        <span className="block uppercase">Iqballaz</span>
-        <span className="block">CUSTOMS</span>
+        <img className="w-24 h-24" src= "/logo.jpg" alt='' />
       </div>
      </a>
       <div className="hidden md:flex items-center justify-between w-[230px]">
