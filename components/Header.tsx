@@ -8,7 +8,7 @@ export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const border = "border-[1px] border-[red] border-[solid]"
   return (
-    <nav className="fixed top-0 bg-black z-50 text-white flex justify-between items-center py-4 px-6 w-full">
+    <nav className="fixed top-0  font-[family-name:var(--font-Ahmet-Altun)] bg-black z-50 text-white flex justify-between items-center py-4 px-6 w-full">
       {/* Logo Section */}
      <a href="/">
      <div className="text-lg font-bold">

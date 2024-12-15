@@ -4,7 +4,7 @@ import React from "react";
 import { motion } from "framer-motion";
 export default function Footer() {
   return (
-    <footer className="bg-black text-white py-6">
+    <footer className="bg-black  font-[family-name:var(--font-Ahmet-Altun)] text-white py-6">
       <div className="container mx-auto px-6">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div>
