@@ -19,9 +19,9 @@
     },
     {
         "title":"CERAMIC COATING",
-        "description":"Safeguard your windshield with a durable, shock-absorbing film. It defends against rock chips, sandblasting, and blocks 99% of harmful UV rays for enhanced protection.",
+        "description":"Protect your vehicle with a tough, long-lasting ceramic coating. It shields against scratches, environmental damage, and UV rays, ensuring your car stays glossy and well-protected for years to come.",
         "price":"$500",
-        "image":"/ceramiccoating.png"
+        "image":"/resize_sp_6.png"
     },
     {
         "title":"WINDSHIELD PROTECTION",
@@ -46,17 +46,5 @@
         "description":"Looking to add some height? Or are you looking to ride lower? Lower or raise your vehicle with us. Adjust the height, stiffness, or dampening of your vehicle's suspension. ",
         "price":"$500",
         "image":"/suspension.jpg"
-    },
-    {
-        "title":"PAINT",
-        "description":"Whether it is your entire car or the details, we paint it all. Leave your next paint job to us. We offer a wide array of paint colors. Call to book an appointment today.",
-        "price":"$2,500",
-        "image":"/paint.png"
-    },
-    {
-        "title":"WHEELS AND TIRES",
-        "description":"Looking for a new pair of shoes? Whether it is for styling or performance, we have it all. We carry name brands you know and trust.",
-        "price":"VARIES",
-        "image":"/wheels.png"
     }
 ]
