@@ -1,33 +1,33 @@
 [
     {
-        "title":"PAINT PROTECTION FILM",
-        "description":"Protect your car's exterior with paint protection film (PPF) for years to come. We'll place a clear bra around your vehicle to protect it from rock chips, scratches, and swirling. Call for various PPF packages.",
-        "price":"$500",
-        "image":"/paintprotecttionfilm.png"
+        "title":"PAINT PROTECTION FILM (PPF)",
+        "description":"Protect your car's exterior with our Transparent or Colored Paint Protection Film. Both options shield against rock chips, scratches, and swirl marks, keeping your vehicle flawless for years. Contact us for package details!",
+        "price":"ASK FOR QUOTE",
+        "image":"/PPF.jpg"
     },
     {
         "title":"VINYL WRAP",
-        "description":"Considering a new look? We got you covered. Vinyl wraps are a great way to personalize and protect your vehicle. With many colors and finishes to choose from, we can help you find the perfect high-quality vinyl wrap for your car.",
-        "price":"CALL FOR INFO",
-        "image":"/vinylwrap.png"
+        "description":"Ready for a fresh new look? We’ve got you covered! Vinyl wraps are an excellent way to customize and protect your vehicle. With a wide range of colors and finishes available, we’ll help you choose the perfect wrap to make your car stand out.",
+        "price":"$2800",
+        "image":"/VINYL_WRAP.jpg"
     },
     {
         "title":"WINDOW TINT",
-        "description":"Protect your vehicle from harsh ultraviolet rays with a window tint installation. Our large selection of film not only keeps your interior cooler but offers the privacy and security you need to ride comfortably. ",
-        "price":"$150",
-        "image":"/windowtint.png"
+        "description":"Shield your vehicle from harmful UV rays with our professional window tinting. Choose from a wide range of films that not only keep your interior cool but also provide the privacy and security you deserve for a more comfortable ride.",
+        "price":": $200",
+        "image":"/WINDOW_TINT.jpg"
     },
     {
         "title":"CERAMIC COATING",
-        "description":"Protect your car's exterior with paint protection film (PPF) for years to come. We'll place a clear bra around your vehicle to protect it from rock chips, scratches, and swirling. Call for various PPF packages.",
-        "price":"$600",
+        "description":"Safeguard your windshield with a durable, shock-absorbing film. It defends against rock chips, sandblasting, and blocks 99% of harmful UV rays for enhanced protection.",
+        "price":"$500",
         "image":"/ceramiccoating.png"
     },
     {
         "title":"WINDSHIELD PROTECTION",
         "description":"Protect your windshield with a layered shock-absorbing film. Prevent rock chips and sandblasting with the added benefit of blocking out 99% of UV rays.",
         "price":"$500",
-        "image":"/windshieldprotection.jpg"
+        "image":"/WINDSHIELD_PROTECTION.jpg"
     },
     {
         "title":"PAINT CORRECTION",
@@ -37,9 +37,9 @@
     },
     {
         "title":"POWDER COATING",
-        "description":"Restore your wheels and add a vibrant color that is sure to pop. Our powder-coating process is long-lasting, rust-resistant, and weatherproof. We guarantee we have the color you are looking for.",
+        "description":"Give your wheels a fresh, vibrant look with our durable powder coating. Designed to be rust-resistant and weatherproof, our process ensures a long-lasting finish. With a wide range of colors, we’re confident you’ll find the perfect match!",
         "price":"$150 PER WHEEL",
-        "image":"/powercoating.png"
+        "image":"/wheel_powder_coat.jpeg"
     },
     {
         "title":"SUSPENSION",
