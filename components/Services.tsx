@@ -5,32 +5,32 @@ const services = [
     {
         title: "VINYL WRAP",
         description: "High-quality vinyl made to last.",
-        img: "/vinylwrap.png",
+        img: "/resize_1.png",
     },
     {
         title: "WINDOW TINT",
         description: "Protect from harmful UV rays.",
-        img: "/windowtint.png",
+        img: "/resize_2.png",
     },
     {
         title: "PAINT PROTECTION FILM",
         description: "Protect your car's exterior.",
-        img: "/paintprotecttionfilm.png",
+        img: "/resize_3.png",
     },
     {
         title: "WHEELS POWDER COAT",
         description: "Durable, long-lasting coating.",
-        img: "/wheelspowdercoat.jpg",
+        img: "/resize_4.png",
     },
     {
         title: "CHROME DELETE",
         description: "Durable, long-lasting coating.",
-        img: "/chromedelete.jpg",
+        img: "/resize_5.png",
     },
     {
         title: "CALIPER PAINT",
         description: "Durable, long-lasting coating.",
-        img: "/calliperpaint.jpg",
+        img: "/resize_6.png",
     },
 ];
 const removed = "grid-cols-1 md:grid-cols-3"
