@@ -39,7 +39,7 @@ export default function Services() {
         <section className=" flex flex-col items-center md:py-20 py-10 w-[100%] bg-[white] text-[black] ">
 
             <h2 className="text-3xl font-bold text-center mb-8">Our Services</h2>
-            <div className="grid services w-[90%] gap-6 px-6">
+            <div className="grid services w-[90%] gap-6 md:px-6">
                 {services.map((service, index) => (
                     <a key={index} href={`/services/#${service.title}`}><motion.div
                         className="border cursor-pointer service bg-[hsla(0,_0%,_0%,_0.1)] rounded-[2px] p-6 text-center flex flex-col items-center overflow-hidden"
