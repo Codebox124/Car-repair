@@ -47,7 +47,7 @@ export default function Testimonials() {
     };
 
     return (
-        <section className="bg-black text-white md:py-20 py-10  w-[100%] ">
+        <section className="bg-black text-white md:py-20 py-10  w-[100%] " id="reviews">
             <motion.h2
                 initial={{
                     y: 100,

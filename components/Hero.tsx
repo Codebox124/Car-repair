@@ -5,11 +5,12 @@ import { motion } from "framer-motion";
 export default function Hero() {
     return (
         <motion.section
+        id="home"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 1 }}
             className="relative bg-cover bg-center text-white h-screen w-full md:py-20 py-10  flex flex-col justify-center items-center"
-            style={{ backgroundImage: "url('/image.png')" }}
+            style={{ backgroundImage: "url('/carrepairherobanner.jpg')" }}
         >
           
             <motion.div
@@ -27,7 +28,7 @@ export default function Hero() {
                     animate={{ y: 0, opacity: 1 }}
                     transition={{ duration: 1, delay: 0.3, ease: "easeOut" }}
                 >
-                    Protect Your Vehicle Today!
+                    Customize Your Vehicle Today!
                 </motion.h1>
                 <motion.button
                     className="bg-red-600 px-4 py-2 sm:px-6 sm:py-3 md:px-8 md:py-4 rounded text-white uppercase text-sm sm:text-base md:text-lg"

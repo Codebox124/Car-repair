@@ -3,7 +3,7 @@ import React from "react";
 import { motion } from "framer-motion";
 export default function Location() {
     return (
-        <section className="location  w-[100%] h-[600px] flex flex-col md:flex-row items-center justify-between p-[2%] /*md:py-20 py-10*/ ">
+        <section id="location" className="location  w-[100%] h-[600px] flex flex-col md:flex-row items-center justify-between p-[2%] /*md:py-20 py-10*/ ">
             <motion.div
                 initial={{
                     x: -100,
