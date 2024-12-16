@@ -5,32 +5,32 @@ const services = [
     {
         title: "VINYL WRAP",
         description: "High-quality vinyl made to last.",
-        img: "/services.jpg",
+        img: "/vinylwrap.png",
     },
     {
         title: "WINDOW TINT",
         description: "Protect from harmful UV rays.",
-        img: "/services.jpg",
+        img: "/windowtint.png",
     },
     {
         title: "PAINT PROTECTION FILM",
         description: "Protect your car's exterior.",
-        img: "/services.jpg",
+        img: "/paintprotecttionfilm.png",
     },
     {
-        title: "WHEELS POWER COAT",
+        title: "WHEELS POWDER COAT",
         description: "Durable, long-lasting coating.",
-        img: "/services.jpg",
+        img: "/wheelspowdercoat.jpg",
     },
     {
         title: "CHROME DELETE",
         description: "Durable, long-lasting coating.",
-        img: "/services.jpg",
+        img: "/chromedelete.jpg",
     },
     {
         title: "CALIPER PAINT",
         description: "Durable, long-lasting coating.",
-        img: "/services.jpg",
+        img: "/calliperpaint.jpg",
     },
 ];
 const removed = "grid-cols-1 md:grid-cols-3"
@@ -42,7 +42,7 @@ export default function Services() {
             <div className="grid services w-[90%] gap-6 px-6">
                 {services.map((service, index) => (
                     <a key={index} href={`/services/#${service.title}`}><motion.div
-                        className="border cursor-pointer service bg-[hsla(0,_0%,_0%,_0.1)] rounded-[2px] p-6 text-center flex flex-col items-center"
+                        className="border cursor-pointer service bg-[hsla(0,_0%,_0%,_0.1)] rounded-[2px] p-6 text-center flex flex-col items-center overflow-hidden"
                         initial={{
                             y: 100,
                             opacity: 0
@@ -60,11 +60,15 @@ export default function Services() {
                             once: true
                         }}
                     >
-                        <img
+                        {service.title==="WHEELS POWDER COAT"?<img
                             src={service.img}
                             alt={service.title}
-                            className="mb-4 w-full h-48 object-cover"
-                        />
+                            className="mb-4 w-full h-48 object-cover  origin-bottom"
+                        />:<img
+                        src={service.img}
+                        alt={service.title}
+                        className="mb-4 w-full h-48 object-cover"
+                    />}
                         <h3 className="text-2xl font-bold mb-4">{service.title}</h3>
                         <p className="font-bold">{service.description}</p>
                         <button className="mt-4 bg-red-600 text-white font-bold px-4 py-2 rounded">
