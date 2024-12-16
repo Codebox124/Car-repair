@@ -31,9 +31,9 @@
     },
     {
         "title":"PAINT CORRECTION",
-        "description":"Protect your car's exterior with paint protection film (PPF) for years to come. We'll place a clear bra around your vehicle to protect it from rock chips, scratches, and swirling. Call for various PPF packages.",
+        "description":"Restore and enhance your car’s paint with our professional correction services. We remove imperfections like swirl marks, scratches, and oxidation, leaving your vehicle with a flawless, smooth finish. Contact us to learn about our paint correction packages.",
         "price":"$500",
-        "image":"/paintcorrection.png"
+        "image":"/resize_sp_8.png"
     },
     {
         "title":"POWDER COATING",
@@ -43,8 +43,8 @@
     },
     {
         "title":"SUSPENSION",
-        "description":"Looking to add some height? Or are you looking to ride lower? Lower or raise your vehicle with us. Adjust the height, stiffness, or dampening of your vehicle's suspension. ",
+        "description":"Want to adjust your ride’s height? Whether you want to raise or lower your vehicle, we can help. Customize the height, stiffness, and dampening of your suspension for the perfect ride.",
         "price":"$500",
-        "image":"/suspension.jpg"
+        "image":"/resize_sp_7.png"
     }
 ]

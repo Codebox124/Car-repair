@@ -42,7 +42,8 @@ export default function Hero() {
                     whileHover={{ scale: 1.1 }}
                     whileTap={{ scale: 0.95 }}
                 >
-                    Call to Schedule
+                    
+                   <a href="tel:(832) 208 1071"> Call to Schedule</a>
                 </motion.button>
             </div>
         </motion.section>
