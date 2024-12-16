@@ -15,12 +15,21 @@ export default function Header() {
         <img className="w-24 h-24" src= "/logo.jpg" alt='' />
       </div>
      </a>
-      <div className="hidden md:flex items-center justify-between w-[230px]">
+      {/*<div className="hidden md:flex items-center justify-between w-[230px]">
         <a href="/services"><h1 className="cursor-pointer">Services</h1></a>
         <div className="cursor-pointer bg-red-600 text-white px-4 py-2 rounded w-full md:w-auto text-center">
           (832)-208-1071
         </div>
-      </div>
+      </div>*/}
+      <ul className="hidden md:flex items-center justify-between w-1/2 min-w-[517px]">
+      <a href="/#home"><li>Home</li></a>
+        <a href="/services"><li>Services</li></a>
+        <a href="#reviews"><li>Reviews</li></a>
+        <a href="#location"><li>Location & hours</li></a>
+        <a href="tel:(832)-208-1071"><li> <div className="cursor-pointer bg-red-600 text-white px-4 py-2 rounded w-full md:w-auto text-center">
+          (832)-208-1071
+        </div></li></a>
+      </ul>
       {/* Navigation and Contact */}
     <AnimatePresence>
     {isMenuOpen &&  <motion.div
@@ -39,12 +48,21 @@ export default function Header() {
     }}
         className={"fixed inset-0 bg-[black] flex flex-col items-center justify-center p-[2%] "}
       >
-        <a href="/services"><button className="block md:inline uppercase  text-xl w-full md:w-auto text-center py-3 md:py-0">
+       {/* <a href="/services"><button className="block md:inline uppercase  text-xl w-full md:w-auto text-center py-3 md:py-0">
           Services
         </button></a>
         <div className="bg-red-600 text-white px-4 py-2 rounded w-full md:w-auto text-center">
           (832)-208-1071
-        </div>
+        </div>*/}
+        <ul className="flex flex-col items-center justify-between w-full h-[300px]">
+      <a href="/#home" onClick={()=>{setIsMenuOpen(false)}}><li>Home</li></a>
+        <a href="/services" onClick={()=>{setIsMenuOpen(false)}}><li>Services</li></a>
+        <a href="#reviews" onClick={()=>{setIsMenuOpen(false)}}><li>Reviews</li></a>
+        <a href="#location" onClick={()=>{setIsMenuOpen(false)}}><li>Location & hours</li></a>
+        <a href="tel:(832)-208-1071" className="w-full" onClick={()=>{setIsMenuOpen(false)}}><li><div className="bg-red-600 text-white px-4 py-2 rounded w-full md:w-auto text-center ">
+          (832)-208-1071
+        </div></li></a>
+      </ul>
       </motion.div>}
     </AnimatePresence>
     <AnimatePresence>

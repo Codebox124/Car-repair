@@ -10,12 +10,13 @@ export default function ContactForm() {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
                     {/* Left Section */}
                     <div className="text-center md:text-left">
-                        <h2 className="text-3xl font-bold mb-4">JLE CUSTOMS</h2>
+                       {/* <h2 className="text-3xl font-bold mb-4">JLE CUSTOMS</h2>*/}
+                       <img className="w-24 h-24" src="/logo.jpg" alt="logo" />
                         <p className="mb-4">Our average response time is 1-3 business days.</p>
                         <div>
-                            <p className="text-red-500 font-bold text-lg mb-2">(832) 506 0968</p>
-                            <p>9934 Jones Road, Unit D3</p>
-                            <p>Houston, TX</p>
+                            <p> 5819 Richmond Ave., Houston, TX 77057</p>
+                            <a href="tel:(832) 208 1071"><p className="text-red-500 font-bold text-lg mb-2">(832) 208 1071</p></a>
+                            <a href="mailto:iqballazcustoms@gmail.com"><p className="text-red-500 font-bold text-lg mb-2">iqballazcustoms@gmail.com</p></a>
                         </div>
                         <div className="flex justify-center md:justify-start  mt-10 space-x-6">
                             <motion.a
@@ -37,6 +38,11 @@ export default function ContactForm() {
                                 <FaFacebookF size={24} />
                             </motion.a>
                            
+                        </div>
+                        <div className="mt-[20px] flex flex-col">
+                        <a href="/privacy" className=" my-[5px] text-sm">PRIVACY POLICY</a>
+                        <p  className=" my-[5px] text-sm">TERMS OF SERVICE</p>
+                        <p className=" my-[5px] text-sm">@ IQBALLAZ CUSTOMS 2024</p>
                         </div>
                     </div>
 
