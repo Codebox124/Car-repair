@@ -57,7 +57,7 @@ body {
 }
 
 .servicebanner{
-  background-image: url(../public//servicesbanner.jpg);
+  background-image: url(../public/service_backdrop_image.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
