@@ -18,7 +18,7 @@ const Ahmet = localFont({
 
 
 export const metadata: Metadata = {
-  title: "Iqballas Custom",
+  title: "Iqballaz Customs",
   description: "Car Wraps and Services",
 };
 
