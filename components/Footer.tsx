@@ -12,7 +12,7 @@ export default function ContactForm() {
                     <div className="text-center md:text-left">
                        {/* <h2 className="text-3xl font-bold mb-4">JLE CUSTOMS</h2>*/}
                        <img className="w-24 h-24" src="/logo.jpg" alt="logo" />
-                        <p className="mb-4">Our average response time is 1-3 business days.</p>
+                       
                         <div>
                             <p> 5819 Richmond Ave., Houston, TX 77057</p>
                             <a href="tel:(832) 208 1071"><p className="text-red-500 font-bold text-lg mb-2">(832) 208 1071</p></a>

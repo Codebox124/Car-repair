@@ -24,7 +24,7 @@ const services = [
     },
     {
         title: "CHROME DELETE",
-        description: "Durable, long-lasting coating.",
+        description: "Eliminates all chrome.",
         img: "/resize_5.png",
     },
     {
