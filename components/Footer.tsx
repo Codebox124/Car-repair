@@ -14,7 +14,7 @@ export default function ContactForm() {
                        <img className="w-24 h-24" src="/logo.jpg" alt="logo" />
                        
                         <div>
-                            <p> 5819 Richmond Ave., Houston, TX 77057</p>
+                            <p className="text-xl"> 5819 Richmond Ave., Houston, TX 77057</p>
                             <a href="tel:(832) 208 1071"><p className="text-red-500 font-bold text-lg mb-2">(832) 208 1071</p></a>
                             <a href="mailto:iqballazcustoms@gmail.com"><p className="text-red-500 font-bold text-lg mb-2">iqballazcustoms@gmail.com</p></a>
                         </div>
