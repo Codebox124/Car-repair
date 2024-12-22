@@ -17,6 +17,8 @@ const Ahmet = localFont({
 
 
 
+
+
 export const metadata: Metadata = {
   title: "Iqballaz Customs",
   description: "Car Wraps and Services",
@@ -29,9 +31,24 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${Ahmet.variable}  antialiased`}
-      >
+      <head>
+        {/* Favicon */}
+        <link rel="icon" href="/favicon.ico" />
+        {/* Structured Data for Google */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              name: "Iqballaz Customs",
+              url: "https://iqballazcustoms.com",
+              logo: "https://iqballazcustoms.com/logo.jpg", 
+            }),
+          }}
+        />
+      </head>
+      <body className={`${Ahmet.variable} antialiased`}>
         <Header />
         {children}
         <Footer />
