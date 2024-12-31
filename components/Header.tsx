@@ -8,19 +8,14 @@ export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const border = "border-[1px] border-[red] border-[solid]"
   return (
-    <nav className="fixed top-0  font-[family-name:var(--font-Ahmet-Altun)] bg-black z-50 text-white flex justify-between items-center py-4 px-6 w-full">
+    <nav className="fixed top-0 z-10  font-[family-name:var(--font-Ahmet-Altun)] bg-black z-50 text-white flex justify-between items-center py-4 px-6 w-full">
       {/* Logo Section */}
      <a href="/">
      <div className="text-lg font-bold">
         <img className="w-24 h-24" src= "/logo.jpg" alt='' />
       </div>
      </a>
-      {/*<div className="hidden md:flex items-center justify-between w-[230px]">
-        <a href="/services"><h1 className="cursor-pointer">Services</h1></a>
-        <div className="cursor-pointer bg-red-600 text-white px-4 py-2 rounded w-full md:w-auto text-center">
-          (832)-208-1071
-        </div>
-      </div>*/}
+      
       <ul className="hidden md:flex items-center justify-between w-1/2 min-w-[517px]">
       <a href="/#home"><li>Home</li></a>
         <a href="/services"><li>Services</li></a>

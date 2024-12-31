@@ -30,7 +30,7 @@ const services = [
     {
         title: "CALIPER PAINT",
         description: "Durable, long-lasting coating.",
-        img: "/resize_6.png",
+        img: "/caliper.png",
     },
 ];
 const removed = "grid-cols-1 md:grid-cols-3"
