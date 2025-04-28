@@ -2,6 +2,7 @@ import Hero from "@/components/Hero";
 import Location from "@/components/Location";
 import Services from "@/components/Services";
 import Testimonial from "@/components/Testimonial";
+import Whyus from "@/components/Why";
 import Image from "next/image";
 
 export default function Home() {
@@ -10,6 +11,7 @@ export default function Home() {
 
       <Hero />
       <Services />
+      <Whyus />
       <Testimonial />
       <Location />
 

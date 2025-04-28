@@ -5,7 +5,7 @@ const services = [
     {
         title: "VINYL WRAP",
         description: "High-quality vinyl made to last.",
-        img: "/resize_1.png",
+        img: "/Vinyl.jpeg",
     },
     {
         title: "WINDOW TINT",
