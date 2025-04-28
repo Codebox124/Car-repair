@@ -45,20 +45,36 @@ export default function Hero() {
                 >
                     Customize Your Vehicle Today!
                 </motion.h1>
-                <motion.button
-                    className="bg-red-600 px-4 py-2 sm:px-6 sm:py-3 md:px-8 md:py-4 rounded text-white uppercase text-sm sm:text-base md:text-lg"
-                    initial={{ scale: 0.9, opacity: 0 }}
-                    animate={{ scale: 1, opacity: 1 }}
-                    transition={{
-                        duration: 0.8,
-                        delay: 0.6,
-                        ease: "easeInOut",
-                    }}
-                    whileHover={{ scale: 1.1 }}
-                    whileTap={{ scale: 0.95 }}
-                >
-                    <a href="https://calendly.com/iqballazcustoms/30min"> Call to Schedule</a>
-                </motion.button>
+                <div className="flex gap-5 items-center mt-10 justify-center">
+                    <motion.button
+                        className="bg-red-600 px-4 py-2 sm:px-6 sm:py-3 md:px-8 md:py-4 rounded text-white uppercase text-sm sm:text-base md:text-lg"
+                        initial={{ scale: 0.9, opacity: 0 }}
+                        animate={{ scale: 1, opacity: 1 }}
+                        transition={{
+                            duration: 0.8,
+                            delay: 0.6,
+                            ease: "easeInOut",
+                        }}
+                        whileHover={{ scale: 1.1 }}
+                        whileTap={{ scale: 0.95 }}
+                    >
+                        <a href="https://calendly.com/iqballazcustoms/30min"> BOOK TO SCHEDULE</a>
+                    </motion.button>
+                    <motion.button
+                        className="bg-red-600  px-4 py-2 sm:px-6 sm:py-3 md:px-8 md:py-4 rounded text-white uppercase text-sm sm:text-base md:text-lg"
+                        initial={{ scale: 0.9, opacity: 0 }}
+                        animate={{ scale: 1, opacity: 1 }}
+                        transition={{
+                            duration: 0.8,
+                            delay: 0.6,
+                            ease: "easeInOut",
+                        }}
+                        whileHover={{ scale: 1.1 }}
+                        whileTap={{ scale: 0.95 }}
+                    >
+                        <a href="tel:+18322081071"> CALL TO SCHEDULE</a>
+                    </motion.button>
+                </div>
             </div>
         </motion.section>
     );
